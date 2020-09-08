@@ -254,7 +254,7 @@ Fiabilidad. Al dividir el problema en partes más pequeñas podemos probarlas de
  
 [4] Rodríguez, H. G., Guzmán, U. D., Atilano, R. M., Rangel, N. B., & Rodríguez, M. J. (2018). Computadoras de placa reducida Raspberry Pi 3 y Asus Tinker Board/Reduced plate computers Raspberry Pi 3 and Asus Tinker Board. RECI Revista Iberoamericana de las Ciencias Computacionales e Informática, 7(14), 46-56.
  
-[5]Pi, R. (2015). Raspberry pi 3 model b. online].(https://www. raspberrypi. org.
+[5]Pi, R. (2015). Raspberry pi 3 model b. online].(https://https.raspberrypi.org.)
  
 [6]Challenger-Pérez, I., Díaz-Ricardo, Y., & Becerra-García, R. A. (2014). El lenguaje de programación Python. Ciencias Holguín, 20(2), 1-13.
  

@@ -5,15 +5,22 @@
 
 
 ****PROBLEMA:****
+
  <p>¿Cuál es la  configuración de la tarjeta de desarrollo Raspberry Pi , usando Poo para el desarrollo de problemas de lógica digital ? </p>
+ 
 ****OBJETIVO GENERAL****
+
  <p>Investigar los usos ,estructuras y parámetros de configuración de la tarjeta de desarrollo Raspberry Pi usando el paradigma de Programación Orientada a Objetos, a través de  la abstracción  y análisis de información,para su desarrollo y aplicación en la resolución de los problemas planteados. </p>
+ 
 ****OBJETIVOS ESPECÍFICOS****
+
 <p><li> Identificar documentos recientes que tengan información acerca de la tarjeta de desarrollo Raspberry Pi, para de esta manera generar un concepto básico del objeto a investigar y las distintas aplicaciones en las que se encuentran.</li></p>
 <p><li>Comprender los usos y funcionalidades de la tarjeta enfocándonos en el paradigma Poo.</li></p>
 <p><li>Desarrollar los problemas planteados donde se evidencie el  funcionamiento de la tarjeta.</li></p>
 
+
 ****ESTADO DEL ARTE****
+
 ***Sistema de riego por goteo inteligente con frambuesa pi y arduino***
 <p>Nikhil Agrawal y Smita Singhal</p>
 <p>Siemens, Noida</p>
@@ -27,6 +34,7 @@ Este inteligente sistema de riego por goteo demuestra ser útil sistema ya que a
 <p>Este estudio en relación al nuestro contiene aspectos similares como el empleo de un Raspberry pi para controlar un sistema de riego en el que mediante programación en Python se han establecido diversas condiciones para que funcione bajo ciertas circunstancias, sin embargo, a diferencia del nuestro en este se ha empleado otros dispositivos como Arduino que le ayudan a Raspberry a captar los datos del exterior para procesarlos y enviar una respuesta de activado-apagado para el rociador de agua.</p>
 
 ***Sistema de gestión de incendios inteligente basado en Raspberry pi que emplea un rociador de agua automático basado en sensores***
+
 <p>Noorinder, Jaspreet Singh  y Ekambir Sidhu</p>
 <p>Departamento de Ingeniería Electrónica y Comunicaciones, Universidad de Punjabi, Patiala, India</p>
 
@@ -40,16 +48,21 @@ Este inteligente sistema de riego por goteo demuestra ser útil sistema ya que a
 ****MARCO TEÓRICO****
 
 ***Pines GPIO (General Purpose Input Output):***
+
 <p>General Purpose Input Output (GPIO) se trata de un sistema de entrada y salida de propósito general, este consta de una serie de pines o conexiones que se pueden usar como entradas o salidas. Estos pines son digitales, lo que significa que sólo pueden tener dos estados. Tienen una dirección para recibir o enviar corriente (entrada, salida respectivamente) y todo esto es controlable por lenguajes de programación como Python, JavaScript, node-RED, entre otros. Los pines trabajan con una tensión de 3,3 V y un consumo máximo de corriente de 16 mA. </p>
 
 ***Control de GPIO con Python ***
+
 <p>Para esto, lo primero es importar la librería que trabaja con la raspberry pi, la cual es RPi.GPIO.</p>
 Existen dos maneras de identificar la nomenclatura de los pines:
+
  <p><li>Board: Este es el método más simple, y se refiere a la ubicación física de los pines. Empezando por la parte superior izquierda del GPIO, se encuentra el pin físico 1 que proporciona alimentación 3v3. A la derecha de ese pin se encuentra el 2 que proporciona 5v de potencia. El número de pines seguirá creciendo a medida que se desciende por las columnas. A la izquierda se encontrarán todos los pines con números impares y a la derecha los pares. </li></p>
  <p><li>Broadcom: La numeración de pines de Broadcom (BCM), se refiere a los pines que están conectados directamente al SoC del Raspberry Pi. Se puede decir que sus conexiones son directas al cerebro de la raspberry.</li></p>
 
 
 ***Tipos de pines de la Raspberry***
+
+![]()
 *****imagen*****
 
 <p><li>Pines de alimentación: Se puede apreciar pines de 5v, 3v3 (limitados a 50 mA) y tierra (GND o Ground), que aportan alimentación a estos voltajes para los circuitos. </li></p>

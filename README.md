@@ -133,6 +133,8 @@ Es un método opcional, de todos modos es muy común declararlo.
 
 ****DIAGRAMAS****
 
+<p>El diagrama Alarma-Bomba mantiene toda el código  dentro de un bucle el cual repetirá su proceso siempre y cuando el pin 35 este deseleccionado, por dentro mantendrá una estructura tipo switch en donde cada if contendrá una lógica diferente independiente que lograra que nuestra salida A o B sea uno dependiendo de los pines seleccionados.</p>
+
 
 ![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%204.png)
 

@@ -62,8 +62,9 @@ Existen dos maneras de identificar la nomenclatura de los pines:
 
 ***Tipos de pines de la Raspberry***
 
-![]()
-*****imagen*****
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%201.png)
+
 
 <p><li>Pines de alimentación: Se puede apreciar pines de 5v, 3v3 (limitados a 50 mA) y tierra (GND o Ground), que aportan alimentación a estos voltajes para los circuitos. </li></p>
 <p><li>DNC (Do Not Connect): son pines que por el momento no tienen función, pero en futuras implementaciones si son utilizados. Se encuentran en modelos más primitivos de la Raspberry Pi. En las actuales placas han sido marcados como GND.</li></p>
@@ -120,20 +121,27 @@ Es un método opcional, de todos modos es muy común declararlo.
 <p>Características que aplican al objeto solo en el caso en que el sea visible en pantalla por el usuario; entonces sus atributos son el aspecto que refleja, tanto en color, tamaño, posición, si está o no habilitado. 
 - Las variables de instancia también denominados miembros datos, son declaradas en la clase pero sus valores son fijados y cambiados en el objeto. Además de las variables de instancia hay variables de clase, las cuales se aplican a la clase y a todas sus instancias.</p>
 
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%202.png)
 
 
 ***Lógica digital***
 <p>La lógica digital es una ciencia de razonamiento aplicada a circuitos eléctricos que realizan decisiones de tipo (SI) y (NO), donde una serie de circunstancias particulares ocurre, una acción resultara y siempre es el mismo para una serie dada de circunstancias.</p>
 <p>La posibilidad de predecir el resultado final permite el diseño de sistemas digitales a partir de circuitos básicos llamados compuertas, además de la ayuda de la matemática booleana permite la creación de sistemas electrónicos digitales para casi cualquier evento que necesitemos realizar.</p>
 
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%203.png)
+
+
 ****DIAGRAMAS****
 
-*****imagen*****
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%204.png)
+
 
 ****LISTA DE COMPONENTES****
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
 
-*****imagen*****
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%205.png)
 
 ****MAPA DE VARIABLES****
  

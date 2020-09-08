@@ -212,12 +212,27 @@ Seguido de esto nombraremos el primer método “menú” con su parámetro self
 
 
 ****CONCLUSIONES****
+-El paradigma de programación orientado a objetos facilita el desarrollo de un código ya que nos permite declarar clases y objetos , lo cual nos aportara con diferentes beneficios entre estos:
+Reusabilidad. Cuando hemos diseñado adecuadamente las clases, se pueden usar en distintas partes del programa y en numerosos proyectos.
+
+
+Mantenibilidad. Debido a las sencillez para abstraer el problema, los programas orientados a objetos son más sencillos de leer y comprender, pues nos permiten ocultar detalles de implementación dejando visibles sólo aquellos detalles más relevantes.
+
+
+Modificabilidad. La facilidad de añadir, suprimir o modificar nuevos objetos nos permite hacer modificaciones de una forma muy sencilla.
+
+
+Fiabilidad. Al dividir el problema en partes más pequeñas podemos probarlas de manera independiente y aislar mucho más fácilmente los posibles errores que puedan surgir.
+-Los pines GPIO de la Raspberry son de gran utilidad  ya que pueden ser usados tanto como entradas como salidas,es así que en este caso una serie de pines mismos que son seleccionados por el usuario nos permitieron definir las condiciones para que la alarma y la bomba se activen o permanezcan inactivas.sus respectivos atributos.
 
 
 
 
 ****RECOMENDACIONES****
 
+-Para un buen manejo del código y una excelente programación se recomienda al usuario tener pleno conocimiento de la librería RPi.GPIO y sus diferentes sentencias reservadas pues con este conocimiento la programación en una Raspberry será mucho más amena y mejor elaborada.
+
+-Mediante la plataforma create.withcode los programas presentan cierto error al trabajar con pines se recomienda al usuario utilizar la función GPIO.cleanup()  al final de cada ejecución de los pines pues esta limpiara nuestra Raspberry y no permitirá que entre en un bucle interrumpiendo nuestra codificación.
 
 
 ****CRONOGRAMA****

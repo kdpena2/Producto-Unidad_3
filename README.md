@@ -148,6 +148,36 @@ Es un método opcional, de todos modos es muy común declararlo.
 ****MAPA DE VARIABLES****
  
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
+
+<p>Como primer punto para la correcta ejecución de nuestro código, llamamos a las librería para el control de los pines, y la librería asociada al tiempo:</p>
+<p>import RPi.GPIO as GPIO
+import time</p>
+ 
+<p>Posterior a esto, asignamos el número de pin que queremos que actúe como led en el programa, a más de elegir el modo en el que se llamarán los pines, y configurarlos como salida.</p>
+<p>pin1=3</p>
+<p>pin2=8</p>
+<p>GPIO.setmode (GPIO.BOARD)</p>
+<p>GPIO.setup (pin1,GPIO.OUT)</p>
+<p>GPIO.setup (pin2,GPIO.OUT)</p>
+ 
+<p>Denominamos la clase del programa.
+Seguido de esto nombraremos el primer método “menú” con su parámetro self; este nos mostrará en pantalla las distintas opciones a ejecutar, las cuales serán ingresadas por medio de la selección de pines.</p>
+ 
+*****imagen*****
+<p>El siguiente método nombrado “llama_pin”, tiene como parámetros self y el pin asignado anteriormente. Aquí es donde se activará el led, inicializándolo en alto, con un intervalo de 5 segundos de tiempo y diez repeticiones. Posterior a esto se limpiará el GPIO con GPIO.cleanup().</p>
+ 
+*****imagen*****
+<p>Como tercer método usamos “opción” que tiene como parámetros self y opc que retorna en el primer método. Con este haremos que que se encienda la alarma o se active la bomba dependiendo de los pines que hayamos seleccionado.</p>
+<p>Para ingresar por teclado los pines se usa GPIO.input(pin) seguido de la salida en la que se encontrará el pin, la cual puede ser GPIO.HIGH o GPIO.LOW.</p>
+ 
+ 
+ 
+*****imagen*****
+
+<p>Por último, en el main del programa, se usará el ciclo while para que se vuelva a repetir el ingreso de pines si desea el usuario, caso contrario, al presionar el pin 35 saldrá del programa. Además aquí es donde se llama a todos los métodos nombrados con anterioridad.</p>
+
+*****imagen*****
+
  
 ****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
 

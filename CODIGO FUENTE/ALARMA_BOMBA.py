@@ -43,7 +43,7 @@ class Alarma:
         Alarma.llama_pin (self,pin1)
       elif GPIO.input(15)==GPIO.HIGH and GPIO.input(13)==GPIO.HIGH or  GPIO.input(15)==GPIO.HIGH and GPIO.input(11)==GPIO.HIGH or GPIO.input(15)==GPIO.HIGH and GPIO.input(11)==GPIO.HIGH and GPIO.input(13)==GPIO.HIGH:
         Alarma.llama_pin (self,pin1)
-      elif GPIO.input(11)==GPIO.HIGH and GPIO.input(12)==GPIO.HIGH:
+      elif GPIO.input(11)==GPIO.HIGH and GPIO.input(13)==GPIO.HIGH:
         Alarma.llama_pin (self,pin1)
       else:
         print("Alarma desactivada")

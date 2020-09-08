@@ -250,8 +250,20 @@ Fiabilidad. Al dividir el problema en partes más pequeñas podemos probarlas de
  
 <p>[2]Noorinder, J. Singh and E. Sidhu, "Raspberry pi based smart fire management system employing sensor based automatic water sprinkler," 2017 International Conference on Power and Embedded Drive Control (ICPEDC), Chennai, 2017, pp. 102-106, doi: 10.1109/ICPEDC.2017.8081068.</p>
  
-<p>[3]Challenger-Pérez, I., Díaz-Ricardo, Y., & Becerra-García, R. A. (2014). El lenguaje de programación Python. Ciencias Holguín, 20(2), 1-13.
-[4]Raihan, M. K. J., Rahaman, M. S., Sarkar, M. K., & Mahfuz, S. (2013). Raspberry Pi image processing based economical automated toll system. Global Journal of Research In Engineering.</p>
+[3]Raihan, M. K. J., Rahaman, M. S., Sarkar, M. K., & Mahfuz, S. (2013). Raspberry Pi image processing based economical automated toll system. Global Journal of Research In Engineering.
+ 
+[4] Rodríguez, H. G., Guzmán, U. D., Atilano, R. M., Rangel, N. B., & Rodríguez, M. J. (2018). Computadoras de placa reducida Raspberry Pi 3 y Asus Tinker Board/Reduced plate computers Raspberry Pi 3 and Asus Tinker Board. RECI Revista Iberoamericana de las Ciencias Computacionales e Informática, 7(14), 46-56.
+ 
+[5]Pi, R. (2015). Raspberry pi 3 model b. online].(https://www. raspberrypi. org.
+ 
+[6]Challenger-Pérez, I., Díaz-Ricardo, Y., & Becerra-García, R. A. (2014). El lenguaje de programación Python. Ciencias Holguín, 20(2), 1-13.
+ 
+[7] Ramırez, A. O. (2010). Python como primer lenguaje de programación. Publicación interna del Tecnológico de Monterrey, Campus Estado de México.
+ 
+[8] Mano, M. M. (1982). Logica Digital y Diseño. Pearson Educación.
+
+ 
+
 
 ****ANEXOS****
 

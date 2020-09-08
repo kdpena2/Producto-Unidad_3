@@ -6,9 +6,9 @@
 
 ****PROBLEMA:****
  <p>¿Cuál es la  configuración de la tarjeta de desarrollo Raspberry Pi , usando Poo para el desarrollo de problemas de lógica digital ? </p>
-****OBJETIVO GENERAL:****
+****OBJETIVO GENERAL****
  <p>Investigar los usos ,estructuras y parámetros de configuración de la tarjeta de desarrollo Raspberry Pi usando el paradigma de Programación Orientada a Objetos, a través de  la abstracción  y análisis de información,para su desarrollo y aplicación en la resolución de los problemas planteados. </p>
-****OBJETIVOS ESPECÍFICOS:****
+****OBJETIVOS ESPECÍFICOS****
 <p><li> Identificar documentos recientes que tengan información acerca de la tarjeta de desarrollo Raspberry Pi, para de esta manera generar un concepto básico del objeto a investigar y las distintas aplicaciones en las que se encuentran.</li></p>
 <p><li>Comprender los usos y funcionalidades de la tarjeta enfocándonos en el paradigma Poo.</li></p>
 <p><li>Desarrollar los problemas planteados donde se evidencie el  funcionamiento de la tarjeta.</li></p>

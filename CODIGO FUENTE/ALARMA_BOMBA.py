@@ -55,6 +55,7 @@ class Alarma:
         Alarma.llama_pin2(self,pin2)
       else:
         print("Bomba desactivada") 
+
 GPIO.input(35)==GPIO.LOW       
 while True: 
   while GPIO.input(35)==GPIO.LOW:

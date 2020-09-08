@@ -76,10 +76,12 @@ I2C está compuesto por la señal de datos (GPIO2) y el reloj (GPIO3). Además d
 Serial, otra comunicación muy práctica con pines TX (GPIO14) y RX (GPIO15) como los que puedes encontrar en la placa Arduino UNO.
 
 ***Programación orientada a objetos (POO) en Python***
+
 <p>Se define como un paradigma de la programación, donde se organiza el código en unidades denominadas clases, de las cuales se crean objetos que se relacionan entre sí para conseguir los objetivos de las aplicaciones. 
 Es una forma especial de programar, más cercana a cómo expresamos las cosas en la vida real que otros tipos de programación. </p>
 
 ***Ventajas POO***
+
 <p><li>Agiliza el desarrollo de software.</li></p>
 <p><li>Facilita el mantenimiento del software.</li></p>
 <p><li>Permite crear sistemas más complejos. </li></p>   
@@ -90,7 +92,9 @@ Es una forma especial de programar, más cercana a cómo expresamos las cosas en
  
 
 ***Elementos de POO*** 
+
 ***Clases***
+
 <p>Las clases son los modelos o representaciones donde posteriormente se van a crear objetos similares, esta es una plantilla que describe los detalles de un objeto individual.
 Se compone de tres cosas: un nombre, atributos y operaciones.  
 consta de métodos y de datos que resumen las características comunes de dicho conjunto. 
@@ -118,8 +122,10 @@ Es un método opcional, de todos modos es muy común declararlo.
  
  
 ***Atributos***
+
 <p>Características que aplican al objeto solo en el caso en que el sea visible en pantalla por el usuario; entonces sus atributos son el aspecto que refleja, tanto en color, tamaño, posición, si está o no habilitado. 
 - Las variables de instancia también denominados miembros datos, son declaradas en la clase pero sus valores son fijados y cambiados en el objeto. Además de las variables de instancia hay variables de clase, las cuales se aplican a la clase y a todas sus instancias.</p>
+
 
 ![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%202.png)
 
@@ -127,6 +133,7 @@ Es un método opcional, de todos modos es muy común declararlo.
 ***Lógica digital***
 <p>La lógica digital es una ciencia de razonamiento aplicada a circuitos eléctricos que realizan decisiones de tipo (SI) y (NO), donde una serie de circunstancias particulares ocurre, una acción resultara y siempre es el mismo para una serie dada de circunstancias.</p>
 <p>La posibilidad de predecir el resultado final permite el diseño de sistemas digitales a partir de circuitos básicos llamados compuertas, además de la ayuda de la matemática booleana permite la creación de sistemas electrónicos digitales para casi cualquier evento que necesitemos realizar.</p>
+
 
 ![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%203.png)
 
@@ -140,12 +147,18 @@ Es un método opcional, de todos modos es muy común declararlo.
 
 
 ****LISTA DE COMPONENTES****
+
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
 
 
 ![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%205.png)
 
+
 ****MAPA DE VARIABLES****
+
+
+ ![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%206.png)
+ 
  
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
 
@@ -163,28 +176,38 @@ import time</p>
 <p>Denominamos la clase del programa.
 Seguido de esto nombraremos el primer método “menú” con su parámetro self; este nos mostrará en pantalla las distintas opciones a ejecutar, las cuales serán ingresadas por medio de la selección de pines.</p>
  
-*****imagen*****
+ 
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%207.png)
+
+
 <p>El siguiente método nombrado “llama_pin”, tiene como parámetros self y el pin asignado anteriormente. Aquí es donde se activará el led, inicializándolo en alto, con un intervalo de 5 segundos de tiempo y diez repeticiones. Posterior a esto se limpiará el GPIO con GPIO.cleanup().</p>
  
-*****imagen*****
+ 
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%208.png)
+
+
 <p>Como tercer método usamos “opción” que tiene como parámetros self y opc que retorna en el primer método. Con este haremos que que se encienda la alarma o se active la bomba dependiendo de los pines que hayamos seleccionado.</p>
 <p>Para ingresar por teclado los pines se usa GPIO.input(pin) seguido de la salida en la que se encontrará el pin, la cual puede ser GPIO.HIGH o GPIO.LOW.</p>
  
  
- 
-*****imagen*****
+ ![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%209.png)
+
 
 <p>Por último, en el main del programa, se usará el ciclo while para que se vuelva a repetir el ingreso de pines si desea el usuario, caso contrario, al presionar el pin 35 saldrá del programa. Además aquí es donde se llama a todos los métodos nombrados con anterioridad.</p>
 
-*****imagen*****
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2010.png)
 
  
 ****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
 
-*****imagen*****
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2011.png)
+
  
 ****APORTACIONES****
 
+<p>Como aportaciones básicas tenemos que todo el programa se maneja en una estructura iterativa es decir el programa finalizara únicamente si el usuario selecciona el pin 35 caso contrario seguirá ejecutando, por otro lado se estableció una salida visual mediante un GPIO.output(3,GPIO.HIGH) y GPIO.output(8,GPIO.HIGH) los que permiten visualizar el estado de la alarma dependiendo de las condiciones que ingresemos, de la misma forma se priorizo explicar en el informe sobre el paradigma de programación orientada a objetos el cual nos permite manejar objetos, se priorizo la eficiencia del programa y se evito el desperdicio de líneas de código utilizando de forma eficaz la librería RPi.GPIO</p>
 
 
 
@@ -199,10 +222,11 @@ Seguido de esto nombraremos el primer método “menú” con su parámetro self
 
 ****CRONOGRAMA****
 
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2012.png)
 
 
-*****imagen*****
 
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2013.png)
 
 
 ****BIBLIOGRAFÍA:****
@@ -213,5 +237,19 @@ Seguido de esto nombraremos el primer método “menú” con su parámetro self
  
 <p>[3]Challenger-Pérez, I., Díaz-Ricardo, Y., & Becerra-García, R. A. (2014). El lenguaje de programación Python. Ciencias Holguín, 20(2), 1-13.
 [4]Raihan, M. K. J., Rahaman, M. S., Sarkar, M. K., & Mahfuz, S. (2013). Raspberry Pi image processing based economical automated toll system. Global Journal of Research In Engineering.</p>
+
+****ANEXOS****
+
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2014.png)
+
+
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2015.png)
+
+
+
+![](https://github.com/kdpena2/Producto-Unidad_3/blob/master/IMG/Imagen%2016.png)
+
 
 

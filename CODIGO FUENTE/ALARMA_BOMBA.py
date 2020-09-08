@@ -18,7 +18,6 @@ class Alarma:
       ''')
       return opc
     
-    
     def llama_pin(self,pin1):
       print("Alarma activada")
       for i in range(0,10):
@@ -38,7 +37,6 @@ class Alarma:
         GPIO.output(8,GPIO.LOW)
         time.sleep(0.5)
         GPIO.cleanup() 
-        
               
     def opcion(self,opc):
       if GPIO.input(16)==GPIO.HIGH:
@@ -50,8 +48,6 @@ class Alarma:
       else:
         print("Alarma desactivada")
       
-        
-        
     def opcion1(self,opc):
       if  GPIO.input(21)==GPIO.HIGH and GPIO.input(23)==GPIO.LOW and GPIO.input(24)==GPIO.LOW :
         Alarma.llama_pin2(self,pin2)
@@ -72,12 +68,4 @@ while True:
       print("El programa a finalizado")
       break
 
-        
-
-        calculo=CalcuCientifica()
-        selecOperacion=calculo.menu()
-        opc=input("Desea realizar otra operación Si=S/No=N\n")
-        opc=opc.upper()
-        if opc != "S":
-            print("La calculadora se a finalizado")
-        break
+  
